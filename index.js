@@ -1,10 +1,6 @@
 const loadScript = require('load-script2');
 const SRC = 'https://scripts.sirv.com/sirvjs/v3/sirv.js';
 
-const scriptIsExist = () => {
-    // if (window.Sirv || 1)
-};
-
 let scriptPromise = null;
 const load = (attrs, parentNode) => {
     if (!scriptPromise) {
