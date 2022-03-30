@@ -4,7 +4,7 @@
   "description": "Add Sirv Media Viewer script to page",
   "main": "index.js",
   "scripts": {
-    "test": "airtap -- tests/*.js"
+    "test": "airtap tests/*.js"
   },
   "author": {
     "name": "Serhii Ponomarenko",
@@ -27,6 +27,7 @@
   },
   "devDependencies": {
     "airtap": "^4.0.4",
+    "airtap-playwright": "^1.0.1",
     "tape": "^5.5.2"
   }
 }
