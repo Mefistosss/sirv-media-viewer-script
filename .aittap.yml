@@ -1,5 +1,8 @@
 sauce_connect: true
 loopback: airtap.local
+providers:
+  - airtap-system
+  - airtap-sauce
 browsers:
   - name: chrome
     version: latest
