@@ -1,0 +1,31 @@
+{
+  "name": "sirv-media-viewer-script",
+  "version": "1.0.0",
+  "description": "Add Sirv Media Viewer script to page",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Serhii Ponomarenko",
+    "email": "sergeypo@protonmail.com"
+  },
+  "keywords": [
+    "load",
+    "load script",
+    "load-script",
+    "sirv",
+    "viewer",
+    "script",
+    "media-viewer",
+    "sirv-media-viewer",
+    "sirv-media-viewer-script"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "load-script2": "^2.0.6"
+  },
+  "devDependencies": {
+    "tape": "^5.5.2"
+  }
+}
