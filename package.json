@@ -1,6 +1,6 @@
 {
   "name": "sirv-media-viewer-script",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Add Sirv Media Viewer script to page",
   "main": "index.js",
   "scripts": {
