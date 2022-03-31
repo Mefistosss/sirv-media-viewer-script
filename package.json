@@ -10,6 +10,7 @@
     "name": "Serhii Ponomarenko",
     "email": "sergeypo@protonmail.com"
   },
+  "homepage": "https://github.com/Mefistosss/sirv-media-viewer-script",
   "keywords": [
     "load",
     "load script",
@@ -29,5 +30,12 @@
     "airtap": "^4.0.4",
     "airtap-playwright": "^1.0.1",
     "tape": "^5.5.2"
+  },
+  "bugs": {
+    "url": "https://github.com/Mefistosss/sirv-media-viewer-script/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Mefistosss/sirv-media-viewer-script.git"
   }
 }
