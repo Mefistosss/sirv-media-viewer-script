@@ -31,6 +31,4 @@ More about it you can find [here](https://www.npmjs.com/package/load-script2#att
 More about it you can find [here](https://www.npmjs.com/package/load-script2#parentnode-optional)
 
 #### `promise`
-
-Returns a promise which resolves to the `sirv` object that was appended to the
-DOM, or rejects with `err` if any occurred.
+Returns a promise which resolves to the `sirv` object, or rejects with `err` if any occurred.
