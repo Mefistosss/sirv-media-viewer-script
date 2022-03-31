@@ -1,10 +1,10 @@
-const load = require('../');
+const loadSMVScript = require('../');
 const test = require('tape');
 
 test('test of sirv existing', (t) => {
-    load()
+    loadSMVScript()
         .then((sirv) => {
-            t.ok(!!sirv, 'sirv is exist');
+            t.ok(!!sirv, 'sirv is existing');
             t.end();
         })
         .catch((err) => {

@@ -9,9 +9,7 @@ const load = (attrs, parentNode) => {
                 resolve(window.Sirv);
             } else {
                 loadScript(SRC, attrs, parentNode)
-                    .then(() => {
-                        resolve(window.Sirv);
-                    })
+                    .then(() => { resolve(window.Sirv); })
                     .catch(reject);
             }
         });
