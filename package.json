@@ -1,12 +1,13 @@
 {
   "name": "sirv-media-viewer-script",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Add Sirv Media Viewer script to page",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jest --config jestconfig.json --errorOnDeprecated"
+    "test": "jest --config jestconfig.json",
+    "prepare" : "npm run build"
   },
   "author": {
     "name": "Serhii Ponomarenko",
