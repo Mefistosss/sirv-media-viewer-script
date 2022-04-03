@@ -1,10 +1,12 @@
 {
   "name": "sirv-media-viewer-script",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Add Sirv Media Viewer script to page",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "airtap tests/*.js"
+    "build": "tsc",
+    "test": "jest --config jestconfig.json --errorOnDeprecated"
   },
   "author": {
     "name": "Serhii Ponomarenko",
@@ -27,9 +29,10 @@
     "load-script2": "^2.0.6"
   },
   "devDependencies": {
-    "airtap": "^4.0.4",
-    "airtap-playwright": "^1.0.1",
-    "tape": "^5.5.2"
+    "@types/jest": "^27.4.1",
+    "jest": "^27.5.1",
+    "ts-jest": "^27.1.4",
+    "typescript": "^4.6.3"
   },
   "bugs": {
     "url": "https://github.com/Mefistosss/sirv-media-viewer-script/issues"
@@ -37,5 +40,8 @@
   "repository": {
     "type": "git",
     "url": "git@github.com:Mefistosss/sirv-media-viewer-script.git"
-  }
+  },
+  "files": [
+    "lib/**/*"
+  ]
 }
